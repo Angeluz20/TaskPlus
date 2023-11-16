@@ -1,0 +1,10 @@
+.textAreaStyle{
+	display: flex;
+	resize: none;
+	height: 160px;
+	border-radius: 0.5rem;
+	border: none;
+	outline: none;
+	padding: 8px;
+	width: 100%;
+}
