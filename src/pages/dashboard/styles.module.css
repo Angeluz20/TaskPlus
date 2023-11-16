@@ -1,0 +1,177 @@
+.container{
+	width: 100%;
+}
+
+.content{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: #fff;
+}
+
+.formTask{
+	max-width: 1024px;
+	width: 100%;
+	padding: 0 18px;
+	padding-bottom: 20px;
+	margin-top: 58px;
+}
+.formTask h1{
+	padding-bottom: 20px;
+	margin-top: 18px;
+}
+
+.buttonSubmit{
+	max-width: 1024px;
+	width: 100%;
+	height: 2rem;
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 0.5rem;
+	background-color: #0f121a;
+	color: #b56fea;
+	border: 1px solid #b56fea;
+	cursor: pointer;
+	transition: all 0.5s;
+	letter-spacing: 0.2rem;
+}
+.buttonSubmit:hover {
+
+	background-color:  #b56fea;
+	color: #0f121a;
+	
+}
+
+.checkboxAREA{
+	margin-top: 1rem;
+	width: 12rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.tasksContainer{
+
+	width: 100%;
+	margin: 34px auto 0 auto;
+	padding: 0 18px;
+	max-width: 1024px;
+	display: flex;
+	flex-direction: column;
+	height: 22rem;
+	margin-bottom: 40px;
+	color:  #ffffff;
+  overflow-y: auto;
+}
+.tasksContainer::-webkit-scrollbar {
+  width: 12px;
+	background-color: #191C29;
+	color: red;
+
+}
+
+.containerCardTask{
+	width: 100%;
+	background-color: #191C29;
+	margin-top: 30px;
+	border: 10px;
+	line-height: 150%;
+	display: flex;
+	flex-direction: column;
+	border-radius: 0.5rem;
+	padding: 14px;
+	justify-content: space-between;
+	overflow-y: a;
+}
+
+.trashBtn{
+	background-color: #191C29;
+	border: none;
+	color: #ea966f;
+	transition: all 0.5s;
+	cursor: pointer;
+	border-radius: 10px;
+	width: 30px;
+  height: 30px;
+	padding: 5px;
+	background-color: #33364d;
+}
+.ActionBtnRemoveOrShere{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+  height: 100%;
+}
+
+.trashBtn:hover{
+ scale: 1.4;
+ background-color: #ea966f;
+ color: #33364d
+}
+
+.tagContainer{
+	display: flex;
+	align-items: center;
+	width: 4.5rem;
+	justify-content: space-between;
+}
+
+.taskContent{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+
+}
+.taskContent a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.tasksContainer h1{
+margin-bottom: 20px;
+
+}
+
+.taskContent p{
+	white-space: pre-wrap;
+}
+
+.shareBtn{
+  margin-bottom: 0.9rem;
+	border-radius: 10px;
+	background-color: #33364d;
+	width: 30px;
+  height: 30px;
+	padding: 5px;
+  font-size: 10px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+.shareBtn:hover{
+  color: #0f121a;
+	background-color: #ffffff;
+	scale: 1.4;
+}
+.swal-wide{
+	width:850px !important;
+	font-size: 1.6rem !important;
+}
+
+.notFoundTask{
+	display: flex;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 2rem;
+	color: #d3d3d350;
+}
+.notFoundTask p{
+	margin-top: 10px;
+}
