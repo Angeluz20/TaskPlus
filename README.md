@@ -1,5 +1,15 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project TASK+
 
+<div align="center" >
+	<img src='./public//assets//readme/logo.png' alt="logo"/>
+</div>
+
+#### Desenvolvi esse projeto voltado para a organização de tarefas, utilizando o framework Next.js e o Firestore do Firebase. O login é simplificado, permitindo o acesso através da conta do Google, o que torna o cadastro de usuários mais fácil. Trata-se de um sistema simples, porém prático para o dia a dia. 
+
+### Screem Home
+<div align="center" >
+	<img src='./public//assets//readme/home.png' alt="logo"/>
+</div>
 ## Getting Started
 
 First, run the development server:
