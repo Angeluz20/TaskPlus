@@ -7,60 +7,58 @@
 #### Desenvolvi esse projeto voltado para a organização de tarefas, utilizando o framework Next.js e o Firestore do Firebase. O login é simplificado, permitindo o acesso através da conta do Google, o que torna o cadastro de usuários mais fácil. Trata-se de um sistema simples, porém prático para o dia a dia. 
 
 ### Tela Home
-<div align="center" >
+<div align="center">
 	<img src='./public//assets//readme/home.png' alt="logo"/>
 </div>
 
 ### Tela Dashboard
-<div align="center" >
+<div align="center">
 	<img src='./public//assets//readme/dashboard.png' alt="logo"/>
 </div>
 
 ### Tela Dashboard
-<div align="center" >
+<div align="center">
 	<img src='./public//assets//readme/dashboard.png' alt="logo"/>
 </div>
 
 ### Tela Detalhes da tarefa
-<div align="center" >
+<div align="center">
 	<img src='./public//assets//readme/detalhes-task.png' alt="logo"/>
 </div>
 
 ### Tela Detalhes da tarefa com comentário do usuário
-<div align="center" >
+<div align="center">
 	<img src='./public//assets//readme/comentario-user.png' alt="logo"/>
 </div>
 
-## Getting Started
+## Início
 
-First, run the development server:
+Para começar, execute o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Saiba Mais
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Para aprender mais sobre o Next.js, dê uma olhada nos seguintes recursos:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- [Next.js Documentation](https://nextjs.org/docs) - aprenda sobre os recursos e a API do Next.js.
+- [Learn Next.js](https://nextjs.org/learn) - um tutorial interativo do Next.js.
 
-## Learn More
+Você pode conferir [the Next.js GitHub repository](https://github.com/vercel/next.js/) - seu feedback e contribuições são bem-vindos!
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Implante no Vercel
 
-## Deploy on Vercel
+A maneira mais fácil de implantar seu aplicativo Next.js é usar a  [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) dos criadores do Next.js.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Confira nossa [Next.js deployment documentation](https://nextjs.org/docs/deployment) para mais detalhes.
+
 # TaskPlus
